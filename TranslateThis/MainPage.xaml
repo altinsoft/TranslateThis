@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TranslateThis"
+             x:Class="TranslateThis.MainPage">
+
+  <StackLayout Padding="25" Spacing="10">
+    <Entry x:Name="FromEntry" Placeholder="Text to translate"/>
+    <Button x:Name="TranslateButton" Text="Translate To de" BackgroundColor="Yellow" TextColor="Red" FontSize="Medium" Clicked="TranslateButton_OnClicked"/>
+    <Label x:Name="TranslatedText" TextColor="Blue" FontSize="Medium"/>
+  </StackLayout>
+</ContentPage>
